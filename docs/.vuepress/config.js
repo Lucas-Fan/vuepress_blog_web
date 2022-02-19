@@ -14,7 +14,7 @@ module.exports = {
             { text: 'Japanese', link: '/language/japanese/' }
           ] 
         },
-        { text: 'TS', link: '/ts/type/'},
+        { text: 'TS', link: '/ts/why/'},
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
       ],
       sidebar: {
