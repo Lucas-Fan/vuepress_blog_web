@@ -14,19 +14,25 @@ module.exports = {
             { text: 'Japanese', link: '/language/japanese/' }
           ] 
         },
+        { text: 'TS', link: '/ts/type/'},
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
       ],
       sidebar: {
-        '/': [
-          { title: 'Home', path: '/' },
-          { title: 'CSS', path: '/css/' },
-          { title: 'JS', path: '/js/'},
+        // '/': [
+        //   { title: 'Home', path: '/' },
+        //   { title: 'CSS', path: '/css/' },
+        //   { title: 'JS', path: '/js/'},
+        // ],
+        '/ts/': [
+          { title: 'why', path: '/ts/why/'},
+          { title: '类型和类型运算', path: '/ts/base/'},
+          { title: '套路一', path: '/ts/one/'},
         ],
         '/css/': [
           '',
           'priotiy',
           'color',
-        ]
+        ],
       }
     },
     // * 对 webpack 进行配置
