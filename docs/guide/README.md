@@ -1,0 +1,1 @@
+# 本项目依赖 webpack 3.x 推荐使用 yarn 安装而不是 npm(npm 会生成错误的依赖树) guide
