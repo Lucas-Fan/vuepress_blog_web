@@ -7,7 +7,12 @@ module.exports = {
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'CSS', link: '/css/' },
+        { text: 'CSS', link: '/css/',
+          items: [
+            { text: '基础知识', link: '/css/base/priotiy/' },
+            { text: '奇技淫巧', link: '/css/specific/20220222/' }
+          ]
+        },
         { text: 'JS', link: '/js/',
           items: [
             { text: 'Chinese', link: '/language/chinese/' },
@@ -39,10 +44,12 @@ module.exports = {
           { title: 'new VueRouter(options)', path: '/vue/vue-router/VueRouter/'},
           { title: 'HashHistory', path: '/vue/vue-router/HashHistory/'},
         ],
-        '/css/': [
-          '',
-          'priotiy',
-          'color',
+        '/css/base/': [
+          { title: 'priotiy', path: '/css/base/priotiy/'},
+          { title: 'color', path: '/css/base/color/'},
+        ],
+        '/css/specific/': [
+          { title: '动态炫彩边框', path: '/css/specific/20220222/'},
         ],
       }
     },
