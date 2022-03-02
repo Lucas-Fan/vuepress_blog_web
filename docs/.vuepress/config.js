@@ -40,11 +40,11 @@ module.exports = {
           ]
         },
         {
-          text: '算法', link: '/algorithm/',
+          text: 'leetcode', link: '/leetcode/',
           items: [
-            { text: 'vue', link: '/algorithm/vue/',
+            { text: '链表', link: '/leetcode/listNode/',
               items: [
-                { text: 'vue', link: '/algorithm/vue/vue/' },
+                { text: '2.两数相加', link: '/leetcode/listNode/2/' },
               ]
             },
           ]
