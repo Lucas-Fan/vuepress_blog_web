@@ -24,7 +24,7 @@
 
 ## 代码
 
-```c++
+```cpp
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

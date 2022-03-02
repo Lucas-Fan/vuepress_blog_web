@@ -47,6 +47,11 @@ module.exports = {
                 { text: '2.两数相加', link: '/leetcode/listNode/2/' },
               ]
             },
+            { text: '滑动窗口', link: '/leetcode/window/',
+              items: [
+                { text: '3.无重复字符的最长子串', link: '/leetcode/window/3/' },
+              ]
+            },
           ]
         },
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
