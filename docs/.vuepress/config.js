@@ -1,29 +1,52 @@
 // * 一个VuePress网站必要的配置文件是.vuepress/config.js
 module.exports = {
-    title: 'my blog',
-    description: 'Just playing around',
+    title: 'FZYT',
+    description: 'A fantastic blog',
+    head: [
+      ['link',{rel:'icon',href:'/image/logo.png'}]
+    ],
     port:8080,
     // * 侧边栏分组
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'CSS', link: '/css/',
-          items: [
-            { text: '基础知识', link: '/css/base/priotiy/' },
-            { text: '奇技淫巧', link: '/css/specific/20220222/' }
-          ]
-        },
         { text: 'JS', link: '/js/',
           items: [
             { text: 'Chinese', link: '/language/chinese/' },
             { text: 'Japanese', link: '/language/japanese/' }
           ]
         },
-        { text: 'TS', link: '/ts/why/'},
-        { text: 'vue', link: '/vue/',
+        { text: 'CSS', link: '/css/',
           items: [
-            { text: 'vue', link: '/vue/vue/' },
-            { text: 'vue-router', link: '/vue/vue-router/install/' }
+            { text: '基础知识', link: '/css/base/priotiy/' },
+            { text: '奇技淫巧', link: '/css/specific/20220222/' }
+          ]
+        },
+        { text: 'TS', link: '/ts/why/'},
+        {
+          text: '前端框架', link: '/fe-frame/',
+          items: [
+            { text: 'vue', link: '/fe-frame/vue/',
+              items: [
+                { text: 'vue', link: '/fe-frame/vue/vue/' },
+                { text: 'vue-router', link: '/fe-frame/vue/vue-router/install/' }
+              ]
+            },
+            { text: 'react', link: '/fe-frame/react/',
+              items: [
+                { text: 'Hook', link: '/fe-frame/react/Hook/' },
+              ]
+            },
+          ]
+        },
+        {
+          text: '算法', link: '/algorithm/',
+          items: [
+            { text: 'vue', link: '/algorithm/vue/',
+              items: [
+                { text: 'vue', link: '/algorithm/vue/vue/' },
+              ]
+            },
           ]
         },
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
