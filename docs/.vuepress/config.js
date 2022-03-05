@@ -54,6 +54,16 @@ module.exports = {
             },
           ]
         },
+        {
+          text: '开源', link: '/open-source/',
+          items: [
+            { text: '基础', link: '/open-source/base/',
+              items: [
+                { text: 'ssh 配置', link: '/open-source/base/ssh-config' },
+              ]
+            },
+          ]
+        },
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
       ],
       sidebar: {
