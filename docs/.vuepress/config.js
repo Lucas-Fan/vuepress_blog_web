@@ -12,8 +12,11 @@ module.exports = {
         { text: 'Home', link: '/' },
         { text: 'JS', link: '/js/',
           items: [
-            { text: 'Chinese', link: '/language/chinese/' },
-            { text: 'Japanese', link: '/language/japanese/' }
+            { text: 'node', link: '/js/node/',
+              items: [
+                { text: '官方文档学习', link: '/js/node/document/frame' },
+              ]
+            },
           ]
         },
         { text: 'CSS', link: '/css/',
@@ -72,6 +75,9 @@ module.exports = {
         //   { title: 'CSS', path: '/css/' },
         //   { title: 'JS', path: '/js/'},
         // ],
+        '/js/node/document/': [
+          { title: '整体结构', path: '/js/node/document/frame'},
+        ],
         '/ts/': [
           { title: 'why', path: '/ts/why/'},
           { title: '类型和类型运算', path: '/ts/base/'},
