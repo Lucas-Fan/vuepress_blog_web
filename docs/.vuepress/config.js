@@ -47,12 +47,18 @@ module.exports = {
           items: [
             { text: '链表', link: '/leetcode/listNode/',
               items: [
-                { text: '2.两数相加', link: '/leetcode/listNode/2/' },
+                { text: '2.两数相加', link: '/leetcode/listNode/2' },
               ]
             },
             { text: '滑动窗口', link: '/leetcode/window/',
               items: [
-                { text: '3.无重复字符的最长子串', link: '/leetcode/window/3/' },
+                { text: '3.无重复字符的最长子串', link: '/leetcode/window/3' },
+              ]
+            },
+            { text: '前缀和', link: '/leetcode/prefix-sum/',
+              items: [
+                { text: '238. 除自身以外数组的乘积', link: '/leetcode/prefix-sum/238' },
+                { text: '2100. 适合打劫银行的日子', link: '/leetcode/prefix-sum/2100' },
               ]
             },
           ]
