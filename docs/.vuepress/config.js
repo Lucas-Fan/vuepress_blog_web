@@ -89,6 +89,16 @@ module.exports = {
           { title: '类型和类型运算', path: '/ts/base/'},
           { title: '套路一', path: '/ts/one/'},
         ],
+        '/leetcode/listNode/': [
+          { title: '2.两数相加', path: '/leetcode/listNode/2'},
+        ],
+        '/leetcode/window/': [
+          { title: '3.无重复字符的最长子串', path: '/leetcode/window/3' },
+        ],
+        '/leetcode/prefix-sum/': [
+          { title: '238. 除自身以外数组的乘积', path: '/leetcode/prefix-sum/238' },
+          { title: '2100. 适合打劫银行的日子', path: '/leetcode/prefix-sum/2100' },
+        ],
         '/vue/vue-router/': [
           { title: 'install', path: '/vue/vue-router/install/'},
           { title: 'new VueRouter(options)', path: '/vue/vue-router/VueRouter/'},
