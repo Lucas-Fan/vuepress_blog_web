@@ -73,6 +73,17 @@ module.exports = {
             },
           ]
         },
+        {
+          text: '其他', link: '/others/',
+          items: [
+            { text: '服务器', link: '/others/server/',
+              items: [
+                { text: 'jenkins 安装与删除', link: '/others/server/jenkins' },
+                { text: 'jenkins 配置自动化部署前端工程', link: '/others/server/deploy-web' },
+              ]
+            },
+          ]
+        },
         { text: 'Github', link: 'https://github.com/Lucas-Fan' },
       ],
       sidebar: {
