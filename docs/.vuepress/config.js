@@ -17,6 +17,11 @@ module.exports = {
                 { text: '官方文档学习', link: '/js/node/document/frame' },
               ]
             },
+            { text: 'promise', link: '/js/promise/',
+            items: [
+              { text: 'promise', link: '/js/promise/base/promise' },
+            ]
+          },
           ]
         },
         { text: 'CSS', link: '/css/',
@@ -94,6 +99,9 @@ module.exports = {
         // ],
         '/js/node/document/': [
           { title: '整体结构', path: '/js/node/document/frame'},
+        ],
+        '/js/promise/base/': [
+          {title: 'promise', path: '/js/promise/base/promise'},
         ],
         '/ts/': [
           { title: 'why', path: '/ts/why/'},
