@@ -1,0 +1,21 @@
+{
+  "name": "FZYT",
+  "short_name": "fzyt",
+  "display": "standalone",
+  "background_color": "#fff",
+  "start_url": "/",
+  "scope": ".",
+  "description": "FZYT 的博客",
+  "icons": [
+    {
+      "src": "logo52.png",
+      "sizes": "52x52",
+      "type": "image/png"
+    },
+    {
+      "src": "logo288.png",
+      "sizes": "288x288",
+      "type": "image/png"
+    }
+  ]
+}
