@@ -3,7 +3,7 @@ module.exports = {
   title: 'FZYT',
   description: 'A fantastic blog',
   head: [
-    ['link', { rel: 'icon', href: '/image/logo.png' }]
+    ['link', { rel: 'icon', href: '/image/logo.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -38,6 +38,7 @@ module.exports = {
             items: [
               { text: 'let const', link: '/js/es6/letConst' },
               { text: '变量解构赋值', link: '/js/es6/Destructuring' },
+              { text: 'Set Map', link: '/js/es6/setMap' },
             ]
           },
           {
