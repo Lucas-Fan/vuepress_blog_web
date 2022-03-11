@@ -34,6 +34,12 @@ module.exports = {
         text: 'JS', link: '/js/',
         items: [
           {
+            text: 'es6', link: '/js/es6/',
+            items: [
+              { text: 'es6', link: '/js/es6/letConst' },
+            ]
+          },
+          {
             text: 'node', link: '/js/node/',
             items: [
               { text: '官方文档学习', link: '/js/node/document/frame' },
