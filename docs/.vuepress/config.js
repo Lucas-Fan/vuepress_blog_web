@@ -36,7 +36,8 @@ module.exports = {
           {
             text: 'es6', link: '/js/es6/',
             items: [
-              { text: 'es6', link: '/js/es6/letConst' },
+              { text: 'let const', link: '/js/es6/letConst' },
+              { text: '变量解构赋值', link: '/js/es6/Destructuring' },
             ]
           },
           {
@@ -134,6 +135,9 @@ module.exports = {
       //   { title: 'CSS', path: '/css/' },
       //   { title: 'JS', path: '/js/'},
       // ],
+      '/js/es6/': [
+        { title: 'let const', path: '/js/es6/letConst' },
+      ],
       '/js/node/document/': [
         { title: '整体结构', path: '/js/node/document/frame' },
       ],
