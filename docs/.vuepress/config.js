@@ -103,6 +103,12 @@ module.exports = {
               { text: '2100. 适合打劫银行的日子', link: '/leetcode/prefix-sum/2100' },
             ]
           },
+          {
+            text: '后续遍历', link: '/leetcode/LRD/',
+            items: [
+              { text: '590. N 叉树的后序遍历', link: '/leetcode/LRD/590' },
+            ]
+          },
         ]
       },
       {
@@ -159,6 +165,9 @@ module.exports = {
       '/leetcode/prefix-sum/': [
         { title: '238. 除自身以外数组的乘积', path: '/leetcode/prefix-sum/238' },
         { title: '2100. 适合打劫银行的日子', path: '/leetcode/prefix-sum/2100' },
+      ],
+      '/leetcode/LRD/': [
+        { title: '590. N 叉树的后序遍历', path: '/leetcode/LRD/590' },
       ],
       '/vue/vue-router/': [
         { title: 'install', path: '/vue/vue-router/install/' },
