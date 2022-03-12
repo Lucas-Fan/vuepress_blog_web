@@ -3,8 +3,8 @@
   "short_name": "fzyt",
   "display": "standalone",
   "background_color": "#fff",
-  "start_url": "/a/",
-  "scope": "/",
+  "start_url": "\\",
+  "scope": ".",
   "description": "FZYT 的博客",
   "icons": [
     {
