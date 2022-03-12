@@ -43,6 +43,66 @@ module.exports = {
       }
     ],
     [
+      "vuepress-plugin-nuggets-style-copy", {
+        copyText: "复制代码",
+        tip: {
+          content: "复制成功"
+        }
+      }
+    ],
+    [
+      'copyright',
+      {
+        authorName: 'FZYT', // 选中的文字将无法被复制
+        minLength: 20, // 如果长度超过  30 个字符
+      },
+    ],
+    [
+      '@vuepress-reco/vuepress-plugin-bgm-player',
+      {
+        audios: [
+          {
+            name: 'Lemon',
+            artist: '米津玄師',
+            url: 'https://www.ytmp3.cn/down/75600.mp3',
+            cover: 'https://t15.baidu.com/it/u=3016151325,4032277337&fm=179&app=42&size=w931&n=0&f=JPEG&fmt=auto?s=A1D1CB3065535A6514481D5E0300E0F1&sec=1647190800&t=5771af9d1b8ec91be98753a0c2c9d1a4'
+          }
+        ],
+        // 是否默认缩小
+        autoShrink: true,
+        // 缩小时缩为哪种模式
+        shrinkMode: 'float',
+        // 悬浮窗样式
+        floatStyle: { bottom: '10px', 'z-index': '999999' }
+      }
+    ],
+    [
+      'cursor-effects', {
+        size: 2, // size of the particle, default: 2
+        shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+        zIndex: 999999999, // z-index property of the canvas, default: 999999999
+      }
+    ],
+    [
+      'dynamic-title',
+      {
+        showIcon: '/image/favicon.ico',
+        showText: '客官欢迎回来~',
+        hideIcon: '/image/favicon.ico',
+        hideText: '客官不要走嘛~',
+        recoverTime: 2000,
+      }
+    ],
+    [
+      '@vssue/vuepress-plugin-vssue', {
+        platform: 'github',
+        owner: 'Lucas-Fan',
+        repo: 'vuepress_blog_web',
+        clientId: '901f3c7de293636a6d90',
+        clientSecret: '0708089775c83b80eb32a5c1f83c04c8f449b588',
+      },
+    ],
+    [
       '@vuepress/google-analytics',
       {
         'ga': 'UA-222722871-1'
@@ -54,6 +114,17 @@ module.exports = {
   themeConfig: {
     lastUpdated: '上次更新',
     subSidebar: 'auto',
+    // valineConfig: {
+    //   appId: 'R9J1bEH1DcjanKtHTcIPGi9F-9Nh9j0Va',// your appId
+    //   appKey: 'HRmkGEmcJYfFIPxOH9A6qP53', // your appKey
+    // },
+    // vssueConfig: {
+    //   platform: 'github',
+    //   owner: 'Lucas-Fan',
+    //   repo: 'vuepress_blog_web',
+    //   clientId: '901f3c7de293636a6d90',
+    //   clientSecret: '0708089775c83b80eb32a5c1f83c04c8f449b588',
+    // },
     nav: [
       { text: 'Home', link: '/' },
       {
