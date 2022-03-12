@@ -30,7 +30,7 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.png', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-    ['meta', { name: 'baidu-site-verification', content: 'code-gpfUaQRNwL' }]
+    ['meta', { name: 'baidu-site-verification', content: 'code-RQvUAi3H3W' }]
   ],
   plugins: [
     [
