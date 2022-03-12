@@ -103,6 +103,19 @@ module.exports = {
       },
     ],
     [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          return new Date(timestamp).toLocaleDateString()
+        }
+      }
+    ],
+    [
+      'sitemap', {
+        hostname: 'https://fzyt.fun'
+      }
+    ],
+    [
       '@vuepress/google-analytics',
       {
         'ga': 'UA-222722871-1'

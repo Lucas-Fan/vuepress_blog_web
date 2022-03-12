@@ -180,3 +180,5 @@ let { foo: baz } = { foo: "aaa", bar: "bbb" };
 - 函数参数的默认值
 - 遍历 Map 结构
 - 输入模块的指定方法
+
+<Vssue :title="$title" />
