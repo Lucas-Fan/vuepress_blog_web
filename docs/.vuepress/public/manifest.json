@@ -8,12 +8,12 @@
   "description": "FZYT 的博客",
   "icons": [
     {
-      "src": "logo52.png",
+      "src": "image/128.png",
       "sizes": "52x52",
       "type": "image/png"
     },
     {
-      "src": "logo288.png",
+      "src": "image/256.png",
       "sizes": "288x288",
       "type": "image/png"
     }
