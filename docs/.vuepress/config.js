@@ -41,6 +41,12 @@ module.exports = {
           buttonText: "刷新"
         }
       }
+    ],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-222722871-1'
+      }
     ]
   ],
   port: 8080,
