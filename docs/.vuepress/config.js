@@ -2,7 +2,25 @@
 module.exports = {
   title: 'FZYT',
   description: 'A fantastic blog',
+  theme: 'reco',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   head: [
+    [
+      'script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?14f438f040699e0c206571e9c07a4adb";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+      `
+    ],
     ['link', { rel: 'icon', href: '/image/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -28,6 +46,8 @@ module.exports = {
   port: 8080,
   // * 侧边栏分组
   themeConfig: {
+    lastUpdated: '上次更新',
+    subSidebar: 'auto',
     nav: [
       { text: 'Home', link: '/' },
       {
