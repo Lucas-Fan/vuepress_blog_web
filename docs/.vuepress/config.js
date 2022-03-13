@@ -172,6 +172,8 @@ module.exports = {
               { text: 'new', link: '/js/base/new' },
               { text: '类数组', link: '/js/base/link-array' },
               { text: '创建对象', link: '/js/base/object' },
+              { text: '继承', link: '/js/base/inherit' },
+              { text: '类型转换', link: '/js/base/type' },
             ]
           },
           {
@@ -297,6 +299,8 @@ module.exports = {
         { title: 'new', path: '/js/base/new' },
         { title: '类数组', path: '/js/base/link-array' },
         { title: '创建对象', path: '/js/base/object' },
+        { title: '继承', path: '/js/base/inherit' },
+        { title: '类型转换', path: '/js/base/type' },
       ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },
