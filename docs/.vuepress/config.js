@@ -157,6 +157,12 @@ module.exports = {
         text: 'JS', link: '/js/',
         items: [
           {
+            text: '基础', link: '/js/base/',
+            items: [
+              { text: '原型和原型链', link: '/js/base/prototype' },
+            ]
+          },
+          {
             text: 'es6', link: '/js/es6/',
             items: [
               { text: 'let const', link: '/js/es6/letConst' },
@@ -265,6 +271,9 @@ module.exports = {
       //   { title: 'CSS', path: '/css/' },
       //   { title: 'JS', path: '/js/'},
       // ],
+      '/js/base/': [
+        { title: '原型和原型链', path: '/js/base/prototype' },
+      ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },
       ],
