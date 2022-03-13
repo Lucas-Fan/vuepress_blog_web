@@ -160,6 +160,9 @@ module.exports = {
             text: '基础', link: '/js/base/',
             items: [
               { text: '原型和原型链', link: '/js/base/prototype' },
+              { text: '词法作用域和动态作用域', link: '/js/base/scope' },
+              { text: '执行上下文', link: '/js/base/context' },
+              { text: '变量对象', link: '/js/base/vo' },
             ]
           },
           {
@@ -273,6 +276,9 @@ module.exports = {
       // ],
       '/js/base/': [
         { title: '原型和原型链', path: '/js/base/prototype' },
+        { title: '词法作用域和动态作用域', path: '/js/base/scope' },
+        { title: '执行上下文', path: '/js/base/context' },
+        { title: '变量对象', path: '/js/base/vo' },
       ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },
