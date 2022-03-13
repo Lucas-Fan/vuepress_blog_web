@@ -168,6 +168,9 @@ module.exports = {
               { text: '闭包', link: '/js/base/closure' },
               { text: '按值传递', link: '/js/base/param' },
               { text: 'call 和 apply', link: '/js/base/call-apply' },
+              { text: 'bind', link: '/js/base/bind' },
+              { text: 'new', link: '/js/base/new' },
+              { text: '类数组', link: '/js/base/link-array' },
             ]
           },
           {
@@ -288,7 +291,10 @@ module.exports = {
         { title: 'this', path: '/js/base/this' },
         { title: '闭包', path: '/js/base/closure' },
         { title: '按值传递', path: '/js/base/param' },
-        { text: 'call 和 apply', link: '/js/base/call-apply' },
+        { title: 'call 和 apply', path: '/js/base/call-apply' },
+        { title: 'bind', path: '/js/base/bind' },
+        { title: 'new', path: '/js/base/new' },
+        { title: '类数组', path: '/js/base/link-array' },
       ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },

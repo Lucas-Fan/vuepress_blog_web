@@ -35,7 +35,6 @@ bar.call2(foo); // 1
 `eval(string)` 入参是字符串，所以使用 `"arguments[" + i + "]"` 拼接的方式，如果是 `arguments[i]` 这样传个 `eval` 方法的入参就会是 `arguments[i]` 执行 `toString` 的返回值。
 
 ```javascript
-// 第二版
 Function.prototype.call2 = function(context) {
   context.__fn__ = this;
   var args = [];
@@ -69,7 +68,6 @@ bar.call2(foo, "kevin", 18);
 - 函数有返回值
 
 ```javascript
-// 第三版
 Function.prototype.call2 = function(context) {
   context = context || window;
   context.__fn__ = this;
