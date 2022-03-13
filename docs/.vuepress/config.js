@@ -30,7 +30,8 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.png', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-    ['meta', { name: 'baidu-site-verification', content: 'code-RQvUAi3H3W' }]
+    ['meta', { name: 'baidu-site-verification', content: 'code-RQvUAi3H3W' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   ],
   plugins: [
     [
@@ -116,12 +117,23 @@ module.exports = {
         hostname: 'https://fzyt.fun'
       }
     ],
+    ['seo', {
+      siteTitle: (_, $site) => 'FZYT',
+      title: $page => $page.title,
+      description: $page => $page.frontmatter.description,
+      author: (_, $site) => 'FZYT',
+      type: $page => 'article',
+      url: (_, $site, path) => 'https://fzyt.fun' + path,
+      image: ($page, $site) => "/image/favicon.ico",
+      publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+      modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+    }],
     [
       '@vuepress/google-analytics',
       {
         'ga': 'UA-222722871-1'
       }
-    ]
+    ],
   ],
   port: 8080,
   // * 侧边栏分组

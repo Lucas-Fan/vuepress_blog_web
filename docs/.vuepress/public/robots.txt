@@ -1,0 +1,3 @@
+Sitemap: https://fzyt.fun/sitemap.xml
+
+User-agent: *
