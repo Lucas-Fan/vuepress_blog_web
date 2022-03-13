@@ -166,6 +166,8 @@ module.exports = {
               { text: '作用域链', link: '/js/base/scope-chain' },
               { text: 'this', link: '/js/base/this' },
               { text: '闭包', link: '/js/base/closure' },
+              { text: '按值传递', link: '/js/base/param' },
+              { text: 'call 和 apply', link: '/js/base/call-apply' },
             ]
           },
           {
@@ -285,6 +287,8 @@ module.exports = {
         { title: '作用域链', path: '/js/base/scope-chain' },
         { title: 'this', path: '/js/base/this' },
         { title: '闭包', path: '/js/base/closure' },
+        { title: '按值传递', path: '/js/base/param' },
+        { text: 'call 和 apply', link: '/js/base/call-apply' },
       ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },
