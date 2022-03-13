@@ -59,25 +59,25 @@ module.exports = {
         minLength: 20, // 如果长度超过  30 个字符
       },
     ],
-    [
-      '@vuepress-reco/vuepress-plugin-bgm-player',
-      {
-        audios: [
-          {
-            name: 'Lemon',
-            artist: '米津玄師',
-            url: 'https://www.ytmp3.cn/down/75600.mp3',
-            cover: 'https://t15.baidu.com/it/u=3016151325,4032277337&fm=179&app=42&size=w931&n=0&f=JPEG&fmt=auto?s=A1D1CB3065535A6514481D5E0300E0F1&sec=1647190800&t=5771af9d1b8ec91be98753a0c2c9d1a4'
-          }
-        ],
-        // 是否默认缩小
-        autoShrink: true,
-        // 缩小时缩为哪种模式
-        shrinkMode: 'float',
-        // 悬浮窗样式
-        floatStyle: { bottom: '10px', 'z-index': '999999' }
-      }
-    ],
+    // [
+    //   '@vuepress-reco/vuepress-plugin-bgm-player',
+    //   {
+    //     audios: [
+    //       {
+    //         name: 'Lemon',
+    //         artist: '米津玄師',
+    //         url: 'https://www.ytmp3.cn/down/75600.mp3',
+    //         cover: 'https://t15.baidu.com/it/u=3016151325,4032277337&fm=179&app=42&size=w931&n=0&f=JPEG&fmt=auto?s=A1D1CB3065535A6514481D5E0300E0F1&sec=1647190800&t=5771af9d1b8ec91be98753a0c2c9d1a4'
+    //       }
+    //     ],
+    //     // 是否默认缩小
+    //     autoShrink: true,
+    //     // 缩小时缩为哪种模式
+    //     shrinkMode: 'float',
+    //     // 悬浮窗样式
+    //     floatStyle: { bottom: '10px', 'z-index': '999999' }
+    //   }
+    // ],
     [
       'cursor-effects', {
         size: 2, // size of the particle, default: 2
