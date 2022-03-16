@@ -177,6 +177,12 @@ module.exports = {
             ]
           },
           {
+            text: '专题', link: '/js/subject/',
+            items: [
+              { text: '柯里化', link: '/js/subject/curry' },
+            ]
+          },
+          {
             text: 'es6', link: '/js/es6/',
             items: [
               { text: 'let const', link: '/js/es6/letConst' },
@@ -194,6 +200,7 @@ module.exports = {
             text: 'promise', link: '/js/promise/',
             items: [
               { text: 'promise', link: '/js/promise/base/promise' },
+              { text: 'promise 控制并发量', link: '/js/promise/pool' },
             ]
           },
         ]
@@ -302,6 +309,9 @@ module.exports = {
         { title: '继承', path: '/js/base/inherit' },
         { title: '类型转换', path: '/js/base/type' },
       ],
+      '/js/subject/': [
+        { title: '柯里化', path: '/js/subject/curry' },
+      ],
       '/js/es6/': [
         { title: 'let const', path: '/js/es6/letConst' },
       ],
@@ -310,6 +320,7 @@ module.exports = {
       ],
       '/js/promise/base/': [
         { title: 'promise', path: '/js/promise/base/promise' },
+        { title: 'promise 控制并发量', path: '/js/promise/pool' },
       ],
       '/ts/': [
         { title: 'why', path: '/ts/why/' },
