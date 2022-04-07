@@ -259,6 +259,12 @@ module.exports = {
               { text: '590. N 叉树的后序遍历', link: '/leetcode/LRD/590' },
             ]
           },
+          {
+            text: '回溯', link: '/leetcode/backtrack/',
+            items: [
+              { text: '90. 子集 II', link: '/leetcode/backtrack/90' },
+            ]
+          },
         ]
       },
       {
@@ -339,6 +345,9 @@ module.exports = {
       ],
       '/leetcode/LRD/': [
         { title: '590. N 叉树的后序遍历', path: '/leetcode/LRD/590' },
+      ],
+      '/leetcode/backtrack/': [
+        { title: '90. 子集 II', path: '/leetcode/backtrack/90' },
       ],
       '/vue/vue-router/': [
         { title: 'install', path: '/vue/vue-router/install/' },
