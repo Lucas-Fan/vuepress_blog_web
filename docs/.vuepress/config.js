@@ -232,6 +232,17 @@ module.exports = {
         ]
       },
       {
+        text: 'C/C++', link: '/c/',
+        items: [
+          {
+            text: 'TCP/IP 网络编程', link: '/c/tcp-ip/',
+            items: [
+              { text: '第一章 理解网络编程和套接字', link: '/c/tcp-ip/1' },
+            ]
+          },
+        ]
+      },
+      {
         text: 'leetcode', link: '/leetcode/',
         items: [
           {
@@ -332,6 +343,9 @@ module.exports = {
         { title: 'why', path: '/ts/why/' },
         { title: '类型和类型运算', path: '/ts/base/' },
         { title: '套路一', path: '/ts/one/' },
+      ],
+      '/c/tcp-ip/': [
+        { title: '第一章 理解网络编程和套接字', path: '/c/tcp-ip/1' },
       ],
       '/leetcode/listNode/': [
         { title: '2.两数相加', path: '/leetcode/listNode/2' },
